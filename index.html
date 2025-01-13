@@ -1,12 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile | Muhammad Aditya Prahaz</title>
+  <!-- icon -->
+  <link href="/website/css/uicons-bold-rounded.css" rel="stylesheet">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- logo -->
+  <link rel="icon" href="img/Logo Icon.png" type="image/x-icon">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/Logo Icon.png" alt="Logo" width="30" class="d-inline-block align-text-top me-2">
+        Wans Motor
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mx-2">
+            <a class="nav-link active" href="#">Beranda</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active" href="#layanan">Layanan</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active" href="#unit">Unit</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active" href="#lokasi">Lokasi</a>
+          </li>
+        </ul>
+
+        <div>
+          <li class="button-primary">
+            <a href="#kontak">Kontak</a>
+          </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero -->
+  <section id="hero">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-md-6 hero-tagline my-auto">
+          <h2>Wans Motor</h2>
+          <p><span class="fw-bold">Wans Motor </span>menerima penjualan dan pembelian berbagai motor baru dan bekas.
+            Menerima pembayaran Cash maupun Kredit.</p>
+
+          <button class="button-lg-primary" href="#unit">Temukan Motor</button>
+          <a href="#unit">
+            <img src="img/arrow.png" alt="">
+          </a>
+        </div>
+      </div>
+
+      <img src="img/logo icon.png" alt="" class="img-hero position-absolute end-0 bottom-0">
+    </div>
+  </section>
+  <!-- akhir hero -->
+  
+  <!-- layanan -->
+  <section class="layanan" id="layanan">
+    <div class="layanan-content">
+      <h1 class="heading">LAYANAN</h1>
+      <span>Kami memberikan berbagai layanan untuk anda.</span>
+    </div>
+
+    <div class="layanan-container">
+      <div class="layanan-box">
+        <div class="layanan-info">
+          <svg xmlns="http://www.w3.org/2000/svg" height="80px" viewBox="0 -960 960 960" width="80px"
+            fill="var(--color1)">
+            <path
+              d="M240-200v40q0 17-11.5 28.5T200-120h-40q-17 0-28.5-11.5T120-160v-320l84-240q6-18 21.5-29t34.5-11h440q19 0 34.5 11t21.5 29l84 240v320q0 17-11.5 28.5T800-120h-40q-17 0-28.5-11.5T720-160v-40H240Zm-8-360h496l-42-120H274l-42 120Zm-32 80v200-200Zm100 160q25 0 42.5-17.5T360-380q0-25-17.5-42.5T300-440q-25 0-42.5 17.5T240-380q0 25 17.5 42.5T300-320Zm360 0q25 0 42.5-17.5T720-380q0-25-17.5-42.5T660-440q-25 0-42.5 17.5T600-380q0 25 17.5 42.5T660-320Zm-460 40h560v-200H200v200Z" />
+          </svg>
+          <h3>JUAL</h3>
+          <p>Menerima penjualan berbagai Motor, baik Motor baru maupun Motor bekas.</p>
+        </div>
+      </div>
+      <div class="layanan-box">
+        <div class="layanan-info">
+          <svg xmlns="http://www.w3.org/2000/svg" height="80px" viewBox="0 -960 960 960" width="80px"
+            fill="var(--color1)">
+            <path
+              d="M260-320q25 0 42.5-17.5T320-380q0-25-17.5-42.5T260-440q-25 0-42.5 17.5T200-380q0 25 17.5 42.5T260-320Zm360 0q20 0 36-12t21-31q-20-4-38-13.5T606-401l-25-25q-10 8-15.5 20t-5.5 26q0 25 17.5 42.5T620-320Zm-460 40v-200 200Zm40 80v40q0 17-11.5 28.5T160-120h-40q-17 0-28.5-11.5T80-160v-320l84-240q6-18 21.5-29t34.5-11h140v55q0 6 .5 12.5T362-680H234l-42 120h255l80 80H160v200h560v-81q22-2 42.5-11t37.5-25v237q0 17-11.5 28.5T760-120h-40q-17 0-28.5-11.5T680-160v-40H200Zm400-520q17 0 28.5-11.5T640-760q0-17-11.5-28.5T600-800q-17 0-28.5 11.5T560-760q0 17 11.5 28.5T600-720Zm62 262L458-662q-8-8-13-19.5t-5-23.5v-155q0-25 17.5-42.5T500-920h155q12 0 23.5 5t19.5 13l204 204q17 17 17 42.5T902-613L747-458q-17 17-42.5 17T662-458Zm43-70 127-127-185-185H520v127l185 185Zm-29-156Z" />
+          </svg>
+          <h3>BELI</h3>
+          <p>Menerima pembelian berbagai Motor, baik Motor baru maupun Motor bekas.</p>
+        </div>
+      </div>
+      <div class="layanan-box">
+        <div class="layanan-info">
+          <svg xmlns="http://www.w3.org/2000/svg" height="80px" viewBox="0 -960 960 960" width="80px"
+            fill="var(--color1)">
+            <path
+              d="M686-132 444-376q-20 8-40.5 12t-43.5 4q-100 0-170-70t-70-170q0-36 10-68.5t28-61.5l146 146 72-72-146-146q29-18 61.5-28t68.5-10q100 0 170 70t70 170q0 23-4 43.5T584-516l244 242q12 12 12 29t-12 29l-84 84q-12 12-29 12t-29-12Zm29-85 27-27-256-256q18-20 26-46.5t8-53.5q0-60-38.5-104.5T386-758l74 74q12 12 12 28t-12 28L332-500q-12 12-28 12t-28-12l-74-74q9 57 53.5 95.5T360-440q26 0 52-8t47-25l256 256ZM472-488Z" />
+          </svg>
+          <h3>GARANSI</h3>
+          <p>Garansi servis selama 1 bulan setelah pembelian, khusus konsumen Wans Motor.</p>
+        </div>
+      </div>
+  </section>
+  <!-- akhir layanan -->
+
+  <!-- unit -->
+  <section id="unit">
+    <div class="container">
+      <div class="row h-100 mt-4 mb-4">
+        <div class="col-12 text-center">
+          <h2>UNIT YG TERSEDIA</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+          <div class="card p-2">
+            <img src="img/1.jpg" alt="">
+            <div class="card-body">
+              <h3>Rp.11.600.000</h3>
+              <p>Honda Beat 2018 (HITAM)<br><span>Plat Kotamadya</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+          <div class="card p-2">
+            <img src="img/2.jpg" alt="">
+            <div class="card-body">
+              <h3>Rp.12.200.000</h3>
+              <p>Honda Beat 2021 (HITAM)<br><span>Plat Kotamadya</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+          <div class="card p-2">
+            <img src="img/3.jpg" alt="">
+            <div class="card-body">
+              <h3>Rp.12.500.000</h3>
+              <p>Honda Vario 125 2016 (HITAM)<br><span>Plat Soreang</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+          <div class="card p-2">
+            <img src="img/4.jpg" alt="">
+            <div class="card-body">
+              <h3>Rp.37.600.000</h3>
+              <p>ADV 2020 (PUTIH)<br><span>Plat Kotamadya</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+          <div class="card p-3">
+            <img src="img/5.jpg" alt="">
+            <div class="card-body">
+              <h3>Rp.13.000.000</h3>
+              <p>Honda Vario 125 2017 (HITAM)<br><span>Plat Rancaekek</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+          <div class="card p-2">
+            <img src="img/6.jpg" alt="">
+            <div class="card-body">
+              <h3>Rp.8.800.000</h3>
+              <p>Honda Beat POP 2015 (HITAM)<br><span>Plat Rancaekek</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir unit -->
+
+  <!-- lokasi -->
+  <section class="location" id="lokasi">
+    <div class="location-content">
+      <h2 class="heading">LOKASI</h2>
+      <p>Jl. Raya Cicalengka - Majalaya No.82, Desa Cikuya, Kecamatan Cicalengka, Kabupaten Bandung, Jawa Barat 40395
+      </p>
+    </div>
+    <div class="iframe">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.1909454350093!2d107.8277983!3d-6.986775200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c5139d3783f9%3A0x6d79087bf825d5a4!2sWans%20Motor!5e0!3m2!1sid!2sid!4v1736709546249!5m2!1sid!2sid"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <!-- akhir lokasi -->
+
+  <!-- kontak -->
+  <section id="kontak">
+    <div class="container mt-5">
+      <h2 class="text-center text-white mt-4 mb-4">HUBUNGI KAMI</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label text-white">Nama</label>
+              <input type="text" class="form-control" id="name" placeholder="Masukkan nama..." required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label text-white">Email</label>
+              <input type="emai" class="form-control" id="email" placeholder="Masukkan email..." required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label text-white">Pesan</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Tulis Pesan..." required></textarea>
+            </div>
+            <button type="submit" class="btn w-100">KIRIM PESAN</button>
+          </form>
+        </div>
+      </div>
+  </section>
+  <!-- akhir kontak -->
+  
+  <!-- footer -->
+  <footer class="footer">
+    <ul class="list">
+      <p class="copyright">
+        &copy 2024 Wans Motor. All Rights Reserved
+      </p>
+    </ul>
+  </footer>
+  <!-- akhir footer -->
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
 </html>
